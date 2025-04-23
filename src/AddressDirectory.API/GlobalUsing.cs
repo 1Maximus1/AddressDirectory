@@ -1,0 +1,15 @@
+﻿global using Carter;
+global using Mapster;
+global using MediatR;
+global using AddressDirectory.API.Data.Repositories;
+global using AddressDirectory.API.Models;
+global using BuildingBlocks.CQRS;
+global using FluentValidation;
+global using Mapster;
+global using AddressDirectory.API.Exceptions;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using AddressDirectory.API.Data.Configurations;
+global using BuildingBlocks.Exceptions;
+global using BuildingBlocks.Behaviors;
+global using AddressDirectory.API.Data;

@@ -1,0 +1,11 @@
+services:
+  addressdb:
+    image: postgres
+  addressdirectory.api:
+    image: ${DOCKER_REGISTRY-}addressdirectoryapi
+    build:
+      context: AddressDirectory.API
+      dockerfile: Dockerfile
+
+volumes:
+  postgres_address:
